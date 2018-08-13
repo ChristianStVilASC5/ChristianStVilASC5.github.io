@@ -1,0 +1,84 @@
+
+html, body {
+    height: 100%;
+}
+
+#navbar{
+    display: flex;
+    background: linear-gradient(to right, transparent, mistyrose),
+    url("https://mdn.mozillademos.org/files/15525/critters.pnghttps://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTcvb3JpZ2luYWwvc3BhY2UuanBn");
+    height: 80px;
+    padding:13px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#name{
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+
+}
+
+#headshot img{
+    display: flex;
+    height: 500px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#text{
+    margin-top: 7em;
+    margin-right: 5em;
+    margin-left: 5em;
+    border: solid black;
+}
+
+.first{
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.nav2:hover { 
+   color: yellow;
+   text-decoration: underline;
+}
+
+.nav2{
+    color: black;
+    text-decoration: none;
+}
+/* body{
+    background: linear-gradient(to bottom, rgb(108, 168, 238), transparent, rgb(241, 255, 225));
+    
+} */
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80em;
+    margin-top: 6em;
+}
+
+/* #cat{
+    width: 50px;
+    height: 50px;
+    margin-left: 76em;
+    margin-top: 6em;
+} */
+
+#logo:hover{
+    background-color: yellow;
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js{
+    height: 100%;
+    background: #f00;
+} */

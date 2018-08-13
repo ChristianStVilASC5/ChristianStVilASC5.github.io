@@ -1,0 +1,50 @@
+body{
+    background: whitesmoke;
+}
+
+html, body {
+    height: 100%;
+}
+
+#welcome{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    text-align: justify;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.titles{
+    margin-left: 2.6em;
+}
+
+h1 > hr {
+    width: 100%;
+    margin-left: 30px;
+    border: black solid 3px;
+}
+
+#line{
+    width: 100%;
+    margin-right: 30px;
+    border: black solid 3px;
+}
+
+.list{
+    margin-left: 3em;
+}
+
+#unknown img{
+    height: 280px;
+    width: 280px;
+    display: inline;
+    
+}
+
+#unknown {
+    text-align: center;
+}
+
